@@ -1,0 +1,1 @@
+const appDefaultFontSizes = 14.0;
