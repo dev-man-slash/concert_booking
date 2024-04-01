@@ -10,7 +10,7 @@ class SeatsBloc extends BlocBase {
   late StreamController<List<MapEntry<SeatModel, int>>> _onItemsCleared;
   late StreamController<List<SeatModel>> _onAnythingChanged;
 
-  List<SeatModel> _selectedSeats = [];
+  final List<SeatModel> _selectedSeats = [];
   late List<List<SeatModel>> _allSeats;
 
   SeatsBloc() {
