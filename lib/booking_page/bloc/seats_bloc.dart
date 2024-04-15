@@ -133,7 +133,7 @@ class SeatModel extends Equatable {
   final int row, column;
   final int price;
 
-  SeatModel(
+  const SeatModel(
     this.state,
     this.row,
     this.column,
